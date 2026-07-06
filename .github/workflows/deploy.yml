@@ -3,6 +3,7 @@ name: Deploying Vite Hello World to Github Pages
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 # Permission
 permissions:
